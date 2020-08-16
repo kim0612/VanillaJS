@@ -1,7 +1,8 @@
 body{
     background-color: peru;
+    text-align: center;
 }
 
-body h1, h4{
-    text-align: center;
+.hiding{
+    display:none;
 }

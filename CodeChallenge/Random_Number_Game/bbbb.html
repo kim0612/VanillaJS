@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Random Number Game</title>
+    <meta charset="UTF-8" />
+  </head>
+
+  <body>
+    <h1> Random Number Game!</h1>
+    
+    <form class="rangeForm">
+      <h4 class="js-generate">Generate a number between 0 and 10</h4>
+      <input class="js-range" type="range" min=0 max=200 step=1 value=10 list="tickmarks">
+        <datalist id="tickmarks">
+          <option value=50></option>
+          <option value=100></option>
+          <option value=150></option>
+          <option value=200></option>
+        </datalist>
+    </form>
+
+    <form class="submitForm">
+          <span>Guess the Number:</span>
+          <input class="js-number" name="yourNum" type="number" min=0 max=10>
+          <input type="submit" value="play!">
+    </form>
+    <div class="paintResult"></div>
+    <h4 class="js-result"></h4>
+
+
+    <script src="bbbb.js"></script>
+  </body>
+</html>
